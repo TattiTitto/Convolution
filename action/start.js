@@ -1,7 +1,7 @@
 const { bot } = require('../core/bot')
 
 bot.start(ctx => {
-    ctx.reply("Salom " + ctx.chat.first_name + " x ni kiriting.\nx | 0 | 0\n0 | 0 | 0\n0 | 0 | 0")
+    ctx.reply("Salom " + ctx.chat.first_name + " x ni kiriting.\n0 | 0 | 0\n0 | x | 0\n0 | 0 | 0")
 })
 
 bot.on('text', ctx => {
